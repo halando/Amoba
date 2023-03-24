@@ -1,0 +1,25 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+.cella{
+    display: flex;
+    width: 50px;
+    height: 50px;
+    float: left;
+    background-color: #DDD;
+    border: 1px solid black;
+    font-size: 3rem;
+    justify-content: center;
+    align-items: center;
+}
+.sor::after{
+    content: "";
+    clear: both;
+    display: table;
+}
+#palya{
+    margin: 20px auto;
+    width: 500px;
+}
